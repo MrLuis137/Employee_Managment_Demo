@@ -1,0 +1,36 @@
+@model Employee_Managment_Demo.Models.Employee
+<h4>Employee</h4>
+<div>
+
+    <dl>
+        <dt>
+            Identification
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ID)
+        </dd>
+        <dt>
+            first Name
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.First_Name)
+        </dd>
+        <dt>
+            Last Name
+        </dt>
+        <dd>Apellido
+            @Html.DisplayFor(model => model.Last_Name)
+        </dd>
+        <dt>
+            Email
+        </dt>
+        <dd>
+            @Html.DisplayFor(modelo => modelo.Email)
+        </dd>
+    </dl>
+
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ID">Edit</a>
+    <a asp-action="Index">Go back</a>
+</div>

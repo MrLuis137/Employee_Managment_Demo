@@ -1,8 +1,10 @@
-using namespace Enployee_Managment_Demo.Models
+using System.ComponentModel.DataAnnotations;
+
+namespace Employee_Managment_Demo.Models
 {
     public class Employee
     {
-        [key]
+        [Key]
         public int ID{get;set;}
         public string First_Name{get;set;}
         public string Last_Name{get;set;}

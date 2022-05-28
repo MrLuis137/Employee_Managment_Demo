@@ -1,4 +1,4 @@
-namespace Enployee_Managment_Demo.Models;
+namespace Employee_Managment_Demo.Models;
 
 public class ErrorViewModel
 {

@@ -1,0 +1,27 @@
+@model Employee_Managment_Demo.Models.Employee
+
+<h3>Are you sure to delete this employee?</h3>
+<div>
+    <dl>
+        <dt>
+            Employee
+        </dt>
+        <dt>
+            Identification
+        </dt>
+        <dd>
+            @Html.DisplayFor(modelo => modelo.First_Name) 
+            @Html.DisplayFor(modelo => modelo.Last_Name) 
+        </dd>
+        <dd>
+            @Html.DisplayFor(modelo => modelo.ID) 
+        </dd>
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="ID"/>
+            <input type="submit" value = "Eliminar"/>
+        </form>
+    <div>
+        <a asp-action= "Index">Go Back</a>
+    </div>
+    </dl>
+</div>

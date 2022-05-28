@@ -1,0 +1,32 @@
+@model Employee_Managment_Demo.Models.Employee;
+
+<h4>Employee</h4>
+
+<div>
+    <form asp-action="Edit">
+        <div>
+        <div asp-validation-summary="ModelOnly"></div>
+        <input asp-for="ID" readonly/>
+        <div>
+            <label>FirstName</label>
+            <input asp-for="First_Name" readonly></label>
+        </div>
+         <div>
+            <label>Last Name</label>
+            <input asp-for="Last_Name" readonly></label>
+        </div>
+         <div>
+            <label asp-for="Email"></label>
+            <input asp-for="Email"></input>
+            <span asp-validation-for="Email"></span>
+        </div>
+    
+        </div>
+        <div>
+            <input type="submit" value="Accept" >
+        </div>
+    </form>
+    <div>
+        <a asp-action="Index">Cancel</a>
+    </div>
+</div>

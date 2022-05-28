@@ -24,3 +24,29 @@ C:\Users\lalem\OneDrive\Documentos\GitHub\Enployee_Managment_Demo\obj\Debug\net6
 C:\Users\lalem\OneDrive\Documentos\GitHub\Enployee_Managment_Demo\obj\Debug\net6.0\Enployee_Managment_Demo.pdb
 C:\Users\lalem\OneDrive\Documentos\GitHub\Enployee_Managment_Demo\obj\Debug\net6.0\Enployee_Managment_Demo.genruntimeconfig.cache
 C:\Users\lalem\OneDrive\Documentos\GitHub\Enployee_Managment_Demo\obj\Debug\net6.0\ref\Enployee_Managment_Demo.dll
+F:\Documentos locales\Git\Employee_Managment_Demo\bin\Debug\net6.0\appsettings.Development.json
+F:\Documentos locales\Git\Employee_Managment_Demo\bin\Debug\net6.0\appsettings.json
+F:\Documentos locales\Git\Employee_Managment_Demo\bin\Debug\net6.0\Enployee_Managment_Demo.staticwebassets.runtime.json
+F:\Documentos locales\Git\Employee_Managment_Demo\bin\Debug\net6.0\Enployee_Managment_Demo.exe
+F:\Documentos locales\Git\Employee_Managment_Demo\bin\Debug\net6.0\Enployee_Managment_Demo.deps.json
+F:\Documentos locales\Git\Employee_Managment_Demo\bin\Debug\net6.0\Enployee_Managment_Demo.runtimeconfig.json
+F:\Documentos locales\Git\Employee_Managment_Demo\bin\Debug\net6.0\Enployee_Managment_Demo.dll
+F:\Documentos locales\Git\Employee_Managment_Demo\bin\Debug\net6.0\ref\Enployee_Managment_Demo.dll
+F:\Documentos locales\Git\Employee_Managment_Demo\bin\Debug\net6.0\Enployee_Managment_Demo.pdb
+F:\Documentos locales\Git\Employee_Managment_Demo\obj\Debug\net6.0\Enployee_Managment_Demo.csproj.AssemblyReference.cache
+F:\Documentos locales\Git\Employee_Managment_Demo\obj\Debug\net6.0\Enployee_Managment_Demo.GeneratedMSBuildEditorConfig.editorconfig
+F:\Documentos locales\Git\Employee_Managment_Demo\obj\Debug\net6.0\Enployee_Managment_Demo.AssemblyInfoInputs.cache
+F:\Documentos locales\Git\Employee_Managment_Demo\obj\Debug\net6.0\Enployee_Managment_Demo.AssemblyInfo.cs
+F:\Documentos locales\Git\Employee_Managment_Demo\obj\Debug\net6.0\Enployee_Managment_Demo.csproj.CoreCompileInputs.cache
+F:\Documentos locales\Git\Employee_Managment_Demo\obj\Debug\net6.0\Enployee_Managment_Demo.MvcApplicationPartsAssemblyInfo.cache
+F:\Documentos locales\Git\Employee_Managment_Demo\obj\Debug\net6.0\Enployee_Managment_Demo.RazorAssemblyInfo.cache
+F:\Documentos locales\Git\Employee_Managment_Demo\obj\Debug\net6.0\Enployee_Managment_Demo.RazorAssemblyInfo.cs
+F:\Documentos locales\Git\Employee_Managment_Demo\obj\Debug\net6.0\staticwebassets.build.json
+F:\Documentos locales\Git\Employee_Managment_Demo\obj\Debug\net6.0\staticwebassets.development.json
+F:\Documentos locales\Git\Employee_Managment_Demo\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\Documentos locales\Git\Employee_Managment_Demo\obj\Debug\net6.0\scopedcss\bundle\Enployee_Managment_Demo.styles.css
+F:\Documentos locales\Git\Employee_Managment_Demo\obj\Debug\net6.0\scopedcss\projectbundle\Enployee_Managment_Demo.bundle.scp.css
+F:\Documentos locales\Git\Employee_Managment_Demo\obj\Debug\net6.0\Enployee_Managment_Demo.dll
+F:\Documentos locales\Git\Employee_Managment_Demo\obj\Debug\net6.0\ref\Enployee_Managment_Demo.dll
+F:\Documentos locales\Git\Employee_Managment_Demo\obj\Debug\net6.0\Enployee_Managment_Demo.pdb
+F:\Documentos locales\Git\Employee_Managment_Demo\obj\Debug\net6.0\Enployee_Managment_Demo.genruntimeconfig.cache

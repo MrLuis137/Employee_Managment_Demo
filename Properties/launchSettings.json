@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "Enployee_Managment_Demo": {
+    "Employee_Managment_Demo": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

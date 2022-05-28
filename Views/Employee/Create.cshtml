@@ -1,0 +1,23 @@
+@model Employee_Managment_Demo.Models.Employee
+
+<form asp-action="Create">
+    <div asp-validation-summary="ModelOnly"></div>
+    <div>
+        <label>Identification</label>
+        <input asp-for="ID"/>
+
+        <label>First Name</label>
+        <input asp-for="First_Name"/>
+
+        <label>Last Name</label>
+        <input asp-for="Last_Name"/>
+
+        <label asp-for = "Email"></label>
+        <input asp-for="Email"/>
+
+    </div>
+    <div>
+        <input type="submit">
+    </div>
+    
+</form>

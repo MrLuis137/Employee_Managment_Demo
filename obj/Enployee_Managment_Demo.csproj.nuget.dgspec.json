@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lalem\\OneDrive\\Documentos\\GitHub\\Enployee_Managment_Demo\\Enployee_Managment_Demo.csproj": {}
+    "F:\\Documentos locales\\Git\\Employee_Managment_Demo\\Enployee_Managment_Demo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lalem\\OneDrive\\Documentos\\GitHub\\Enployee_Managment_Demo\\Enployee_Managment_Demo.csproj": {
+    "F:\\Documentos locales\\Git\\Employee_Managment_Demo\\Enployee_Managment_Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lalem\\OneDrive\\Documentos\\GitHub\\Enployee_Managment_Demo\\Enployee_Managment_Demo.csproj",
+        "projectUniqueName": "F:\\Documentos locales\\Git\\Employee_Managment_Demo\\Enployee_Managment_Demo.csproj",
         "projectName": "Enployee_Managment_Demo",
-        "projectPath": "C:\\Users\\lalem\\OneDrive\\Documentos\\GitHub\\Enployee_Managment_Demo\\Enployee_Managment_Demo.csproj",
+        "projectPath": "F:\\Documentos locales\\Git\\Employee_Managment_Demo\\Enployee_Managment_Demo.csproj",
         "packagesPath": "C:\\Users\\lalem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lalem\\OneDrive\\Documentos\\GitHub\\Enployee_Managment_Demo\\obj\\",
+        "outputPath": "F:\\Documentos locales\\Git\\Employee_Managment_Demo\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\lalem\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\lalem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
