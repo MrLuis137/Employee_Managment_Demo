@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Employee_Managment_Demo.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Employee_Managment_Demo.Controllers;
 
@@ -25,17 +26,19 @@ namespace Employee_Managment_Demo.Controllers;
             {
                 return NotFound();
             }
+            
              var employee = await _Context.Employee.FindAsync(id);
 
              if(employee  == null)
              {
                  return NotFound();
              }
+             ViewData["positions"] = new SelectList(_Context.Position, "ID","Position_Name");
              return View( employee);
          }
 
         [HttpPost]
-         public async Task<IActionResult> Edit(int? id, [Bind("ID, First_Name, Last_Name, Email")] Employee employee)
+         public async Task<IActionResult> Edit(int? id, [Bind("ID, First_Name, Last_Name, Email, Phone, Pay")] Employee employee,int PositionID)
          {
              if(id != employee.ID)
              {
@@ -44,6 +47,7 @@ namespace Employee_Managment_Demo.Controllers;
 
              if(ModelState.IsValid)
              {
+                 employee.PositionID = PositionID;
                  _Context.Update(employee);
                  await _Context.SaveChangesAsync();
                  return RedirectToAction(nameof(Index));
@@ -76,16 +80,19 @@ namespace Employee_Managment_Demo.Controllers;
              return RedirectToAction(nameof(Index));
          }
 
-         public  IActionResult create()
+         public async Task<IActionResult> create()
          {
-             return View();
+            ViewData["positions"] = new SelectList(_Context.Position, "ID","Position_Name");
+            return View();
          }
 
         [HttpPost]
-         public async Task<IActionResult> create([Bind("ID, First_Name, Last_Name, Email")] Employee employee)
+         public async Task<IActionResult> create([Bind("ID, First_Name, Last_Name, Email, Phone, Pay")] Employee employee, int PositionID)
          {
              if(ModelState.IsValid)
              {
+                 employee.PositionID = PositionID;
+                 Console.WriteLine(PositionID);
                  _Context.Add(employee);
                  await _Context.SaveChangesAsync();
                  return RedirectToAction(nameof(Index));
@@ -100,14 +107,16 @@ namespace Employee_Managment_Demo.Controllers;
                 return NotFound();
             }
 
-            var medico = await _Context.Employee
+            var employee = await _Context.Employee
             .Where(e => e.ID == id)
             .FirstOrDefaultAsync();
-            if (medico == null)
+            if (employee == null)
             {
                 return NotFound();
             }
+            var position = await _Context.Position.FindAsync(employee.PositionID);
+            ViewData["position"] = position.Position_Name;
 
-            return View(medico);
+            return View(employee);
         }
     }

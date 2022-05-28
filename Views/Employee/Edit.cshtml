@@ -20,7 +20,18 @@
             <input asp-for="Email"></input>
             <span asp-validation-for="Email"></span>
         </div>
-    
+        <div>
+        <label asp-for = "Phone" ></label>
+        <input asp-for="Phone" type="number"/>
+        </div>
+        <div>
+        <label asp-for = "Pay"></label>
+        <input asp-for="Pay" type="number"/>
+        </div>
+
+        <option value="">Select Position</option>
+        <div class="col-md-5">
+        <select asp-for="PositionID" name="PositionID" class="form-control" asp-items="ViewBag.positions"></select>
         </div>
         <div>
             <input type="submit" value="Accept" >
